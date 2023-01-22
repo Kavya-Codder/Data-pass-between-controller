@@ -18,6 +18,9 @@
 		0720D488297D7B5500F6B6DB /* Closure.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0720D487297D7B5500F6B6DB /* Closure.storyboard */; };
 		0720D48D297D7B8000F6B6DB /* CFirstVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0720D48C297D7B8000F6B6DB /* CFirstVC.swift */; };
 		0720D492297D7B8600F6B6DB /* CSecondVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0720D491297D7B8600F6B6DB /* CSecondVC.swift */; };
+		0720D498297D7D8C00F6B6DB /* NotificationCenter.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0720D497297D7D8C00F6B6DB /* NotificationCenter.storyboard */; };
+		0720D49D297D7E7500F6B6DB /* NFirstVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0720D49C297D7E7500F6B6DB /* NFirstVC.swift */; };
+		0720D4A2297D7EC900F6B6DB /* NSecondVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0720D4A1297D7EC900F6B6DB /* NSecondVC.swift */; };
 		075ADA4D2976E76B0063FD4C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 075ADA4C2976E76B0063FD4C /* AppDelegate.swift */; };
 		075ADA4F2976E76B0063FD4C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 075ADA4E2976E76B0063FD4C /* SceneDelegate.swift */; };
 		075ADA512976E76B0063FD4C /* IViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 075ADA502976E76B0063FD4C /* IViewController.swift */; };
@@ -59,6 +62,9 @@
 		0720D487297D7B5500F6B6DB /* Closure.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Closure.storyboard; sourceTree = "<group>"; };
 		0720D48C297D7B8000F6B6DB /* CFirstVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CFirstVC.swift; sourceTree = "<group>"; };
 		0720D491297D7B8600F6B6DB /* CSecondVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CSecondVC.swift; sourceTree = "<group>"; };
+		0720D497297D7D8C00F6B6DB /* NotificationCenter.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = NotificationCenter.storyboard; sourceTree = "<group>"; };
+		0720D49C297D7E7500F6B6DB /* NFirstVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NFirstVC.swift; sourceTree = "<group>"; };
+		0720D4A1297D7EC900F6B6DB /* NSecondVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSecondVC.swift; sourceTree = "<group>"; };
 		075ADA492976E76B0063FD4C /* PassDataUsingObject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PassDataUsingObject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		075ADA4C2976E76B0063FD4C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		075ADA4E2976E76B0063FD4C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -132,6 +138,16 @@
 			path = Closure;
 			sourceTree = "<group>";
 		};
+		0720D496297D7D4D00F6B6DB /* NotificationCenter */ = {
+			isa = PBXGroup;
+			children = (
+				0720D497297D7D8C00F6B6DB /* NotificationCenter.storyboard */,
+				0720D49C297D7E7500F6B6DB /* NFirstVC.swift */,
+				0720D4A1297D7EC900F6B6DB /* NSecondVC.swift */,
+			);
+			path = NotificationCenter;
+			sourceTree = "<group>";
+		};
 		075ADA402976E76B0063FD4C = {
 			isa = PBXGroup;
 			children = (
@@ -155,6 +171,7 @@
 		075ADA4B2976E76B0063FD4C /* PassDataUsingObject */ = {
 			isa = PBXGroup;
 			children = (
+				0720D496297D7D4D00F6B6DB /* NotificationCenter */,
 				0720D486297D7B3800F6B6DB /* Closure */,
 				0720D46D297D74A500F6B6DB /* Delegate */,
 				0720D460297D72BD00F6B6DB /* Segues */,
@@ -306,6 +323,7 @@
 				0720D441297D61D500F6B6DB /* Main.storyboard in Resources */,
 				075ADA5C2976E76D0063FD4C /* LaunchScreen.storyboard in Resources */,
 				075ADA592976E76D0063FD4C /* Assets.xcassets in Resources */,
+				0720D498297D7D8C00F6B6DB /* NotificationCenter.storyboard in Resources */,
 				0720D46F297D74C300F6B6DB /* Delegate.storyboard in Resources */,
 				075ADA542976E76B0063FD4C /* Instance.storyboard in Resources */,
 				0720D467297D72FC00F6B6DB /* Segues.storyboard in Resources */,
@@ -333,8 +351,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0720D49D297D7E7500F6B6DB /* NFirstVC.swift in Sources */,
 				075ADA572976E76B0063FD4C /* PassDataUsingObject.xcdatamodeld in Sources */,
 				0720D468297D72FC00F6B6DB /* SFirstVC.swift in Sources */,
+				0720D4A2297D7EC900F6B6DB /* NSecondVC.swift in Sources */,
 				0720D48D297D7B8000F6B6DB /* CFirstVC.swift in Sources */,
 				0720D469297D72FC00F6B6DB /* SSecondVC.swift in Sources */,
 				0720D479297D750000F6B6DB /* DFirstVC.swift in Sources */,
